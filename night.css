@@ -1,44 +1,189 @@
 
+/****************************************** Friends Tab ********************************************/
 
-/****************************************** Game Preview *****************************************/
-
-.container-jGk-CT .emptyPlayers-dx3qig, 
-.container-jGk-CT .players-1zg2l8 {
-	background-color: #141414;
-}
-.container-jGk-CT .player-3zB-0D:hover {
-	background-color: #191919;
-}
-.container-jGk-CT .body-3NySJS {
-	text-shadow: -1px 2px 2px #111111;
-}
-.container-jGk-CT .playtime-1BRMZX {
-	color: #A5A5A5;
-}
-.container-jGk-CT .subtitle-rPfx7J,
-.container-jGk-CT .colorMuted-HdFt4q {
-	color: #777777;
-}
-.container-jGk-CT .footer-3J5oP4,
-.container-jGk-CT .news-2KwXHF {
+/* Friends List */
+.peopleColumn-29fq28 {
 	background-color: #111111;
 }
-
-/* No Image Backup */
-.container-jGk-CT .newsEmpty-3tvLgI {
-	filter: grayscale(1) contrast(2.52);
+.peopleColumn-29fq28 .peopleListItem-2nzedh {
+	margin-left: 24px;
+}
+.peopleColumn-29fq28 .peopleListItem-2nzedh:hover,
+.peopleColumn-29fq28 .peopleListItem-2nzedh.active-rhSpJJ {
+	background-color: #161616;
+	margin-left: 14px;
+}
+.peopleColumn-29fq28 .peopleListItem-2nzedh .text-3MU_QQ strong {
+	color: #FFFFFF;
+}
+.peopleColumn-29fq28 .actionButton-uPB8Fs {
+	background-color: transparent;
+	margin-left: 6px;
+}
+.peopleColumn-29fq28 .scrollerBase-289Jih::-webkit-scrollbar-track {
+	background-color: #141414 !important;
+}
+.peopleColumn-29fq28 .scrollerBase-289Jih::-webkit-scrollbar-thumb {
+	background-color: #191919 !important;
+}
+/* Friends List: Add Friend Page */
+.peopleColumn-29fq28 .addInputWrapper-1BOZ3d .wrapper-1cBijl {
+	background-color: #181818;
+	border: none;
+}
+.peopleColumn-29fq28 .sectionHeader-20RGqu {
+	border-bottom: none;
 }
 
-/* Play Button */
-.container-jGk-CT .disabledButton-3apIHo,
-.container-jGk-CT .lookFilled-1Gx00P.colorGrey-2DXtkV {
-	background-color: #3A71C1;
+/* Friends "Active Now" Sidebar */
+.nowPlayingScroller-2XrVUt::-webkit-scrollbar-thumb {
+	background-color: #1E1E1E;
 }
-/* Follow Button */
-.container-jGk-CT .lookOutlined-3sRXeN.colorGrey-2DXtkV {
-	border-color: #3A71C1;
-	color: #3A71C1;
+.nowPlayingScroller-2XrVUt {
+	padding: 0px;
 }
-.container-jGk-CT .verifiedIcon-3oz8wo {
-	filter: hue-rotate(-10deg) contrast(1.5);
+.nowPlayingColumn-2sl4cE {
+	background-color: #161616;
+	padding: 16px 4px 0px 12px;
+}
+.nowPlayingColumn-2sl4cE .wrapper-3D2qGf,
+.nowPlayingColumn-2sl4cE .emptyCard-1RJw8n,
+.nowPlayingColumn-2sl4cE .consentCard-1iSxB_ {
+	background-color: #111111;
+}
+.nowPlayingColumn-2sl4cE .outer-1AjyKL.interactive-3B9GmY:hover {
+	background-color: #141414;
+}
+.nowPlayingColumn-2sl4cE .inset-3sAvek,
+.nowPlayingColumn-2sl4cE .outer-1AjyKL.active-1xchHY {
+	background-color: #161616;
+}
+.nowPlayingColumn-2sl4cE .outer-1AjyKL.interactive-3B9GmY:hover .inset-3sAvek,
+.nowPlayingColumn-2sl4cE .outer-1AjyKL.active-1xchHY .inset-3sAvek {
+	background-color: #1C1C1C;
+}
+.nowPlayingColumn-2sl4cE .padded-302COx {
+	padding: 12px 8px 12px 8px;
+}
+.nowPlayingColumn-2sl4cE .headerFull-1dyyvV .headerIcon-10Jegm {
+	width: 32px;
+	height: 32px;
+}
+.nowPlayingColumn-2sl4cE .multipleIconWrapper-DfGWrz {
+	background-color: transparent;
+}
+.nowPlayingColumn-2sl4cE .headerFull-1dyyvV .headerIcon-10Jegm[src="/assets/b09888a1a6c74c8bb9af76ee61eb70e7.svg"] {
+	filter: grayscale(1) contrast(2.51);
+}
+.nowPlayingColumn-2sl4cE .partyMemberOverflow-lXnzvu {
+	background-color: #1E1E1E;
+	border-radius: 16px;
+	width: 28px;
+	height: 28px;
+	margin-left: 2px;
+	margin-top: -2px;
+	padding: 0px;
+}
+.nowPlayingColumn-2sl4cE .partyMember-1CzxeX+.partyMember-1CzxeX {
+	margin-left: 2px;
+}
+.nowPlayingColumn-2sl4cE .partyMember-1CzxeX {
+	-webkit-mask: none;
+	width: 28px;
+	height: 28px !important;
+	margin-top: -1px;
+}
+.nowPlayingColumn-2sl4cE .applicationStreamingPreviewSize-3NIvhL,
+.nowPlayingColumn-2sl4cE .activitySectionAssets-32WyHu .smallImage-1p6VYD {
+	background-color: #191919;
+}
+.nowPlayingColumn-2sl4cE .separator-XqIyoz {
+	background-color: #1C1C1C;
+}
+/* Friends Playing Sidebar: Popout */
+.layer-v9HyYc .popout-38lTFE {
+	background-color: #191919;
+	box-shadow: -4px 8px 12px rgba(0,0,0,.3);
+	width: 190px;
+	margin-right: -8px;
+	padding: 6px 14px;
+}
+.layer-v9HyYc .popout-38lTFE .enabled-1t_Gxm:hover,
+.layer-v9HyYc .popout-38lTFE .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover {
+	background-color: #161616;
+}
+
+/* Rename Group */
+.title-3qD0b- .input-autosize-input:focus {
+	background-color: #111111;
+}
+.title-3qD0b- .input-autosize:hover {
+	background-color: #161616;
+}
+.title-3qD0b- .input-autosize:hover .input-autosize-input, 
+.title-3qD0b- .input-autosize-input:focus {
+	box-shadow: none;
+}
+
+/* Friends List Online Status Icon */
+.title-3qD0b- .status, 
+.titleCall-3X0yGQ .status {
+	width: 12px;
+	height: 12px;
+}
+.avatar-small .status, 
+.privateChannels-1nO12o .channel.selected .status, 
+.privateChannels-1nO12o .channel:hover .status {
+	border: 2px solid #161616;
+}
+
+/* Add Friend To Group DM Window */
+.popout-103y-5 {
+	background-color: #191919 !important;
+	box-shadow: none;
+	width: 380px;
+}
+.popout-103y-5 .header-1TKi98, 
+.popout-103y-5 .footer-1eyGBa {
+	background: #131313;
+	padding: 14px;
+}
+.popout-103y-5 .inner-3ErfOT {
+	background-color: #191919;
+	padding: 0px;
+}
+.popout-103y-5 .input-1Rv96N {
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.popout-103y-5 .searchBar-1Vaz-O .tag-2gHSR7 {
+	background-color: #262626;
+}
+.popout-103y-5 .friendWrapper-2SrUFF {
+	margin: 0px 0px 0px 8px;
+}
+.popout-103y-5 .friendSelected-1sa4bG {
+	background-color: #212121;
+}
+.popout-103y-5 .nameTag-m8r81H {
+	color: #CCCCCC;
+	font-size: 12px;
+}
+.popout-103y-5 .footerSeparator-M9dQY1 {
+	box-shadow: none;
+	height: 0px;
+}
+.popout-103y-5 .scroller-hUf6zQ::-webkit-scrollbar-thumb {
+	background-color: #111111 !important;
+}
+
+/* Checkbox Blue */
+.popout-103y-5 .checked-3_4uQ9,
+.uploadModal-2ifh8j .checked-3_4uQ9 {
+	background-color: #3A71C1 !important;
+	border: none !important;
+}
+.popout-103y-5 .checked-3_4uQ9 svg,
+.uploadModal-2ifh8j .checked-3_4uQ9 svg {
+	filter: invert(1) brightness(2) !important;
 }
