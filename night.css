@@ -626,95 +626,10 @@
 	margin-left: 0px;
 }
 
-/*********************************** Channel List Bottom Bar **********************************/
-
-.container-3baos1 .avatarWrapper-2yR4wp .status-3DaTVG {
-	border-color: #1B1B1B;
-}
-.container-3baos1 .nameTag-3uD-yy .subtext-3CDbHg {
-	color: #888888;
-	font-size: 10.5px;
-	font-weight: 600;
-}
-.container-3baos1 .title-eS5yk3 {
-	font-size: 14px;
-	font-weight: 400;
-}
-.container-3baos1 .discriminator-3-Lf_x {
-	color: #A5A5A5;
-	font-size: 10px;
-}
-.container-3baos1 .customStatusIcon-3wksjt {
-	margin-top: 1px;
-	margin-left: 2px;
-}
-.container-3baos1 .button-14-BFJ svg {
-	width: 16px;
-	margin-left: -2px;
-}
-.container-3baos1 .button-14-BFJ:hover {
-	background: transparent;
-}
-
-
-.container-1giJp5 .size12-3cLvbJ {
-	font-size: 11px;
-	line-height: 11px;
-	margin-top: -1px;
-	white-space: pre-line; 
-}
-.container-1giJp5 .button-14-BFJ {
-	width: 18px;
-	left: -2px;
-}
-.container-1giJp5 .button-14-BFJ svg {
-	transform: scale(0.9);
-}
-
-.container-1giJp5 .actionButtons-14eAc_ .sizeSmall-2cSMqn {
-	height: 28px;
-	min-height: 28px;
-}
-.container-1giJp5 .lookFilled-1Gx00P.colorBrand-3pXr91, 
-.container-1giJp5 .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
-	background-color: #212121;
-	padding: 0px;
-}
-.container-1giJp5 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-	background-color: #43B581;
-}
-
-/* Rich Presence Game/Spotify & Listening Along Panel */
-.panels-j1Uci_ .panel-24C3ux,
-.panels-j1Uci_ .listeningAlong-13-Udx {
-	background-color: #1B1B1B;
-	border-bottom: 1px solid #212121;
-	padding: 6px 1px 3px;
-}
-.panels-j1Uci_ .info-WdNIDE {
-	margin-left: 4px;
-	font-size: 13px;
-	line-height: 16px;
-}
-.panel-24C3ux .title-eS5yk3 {
-	font-size: 13px;
-	line-height: 14px;
-	white-space: initial;
-	/* word-wrap: break-word; */
-}
-
 
 /************************ Top Bar (Channel Name, Buttons, Search etc) *************************/
 
-/* Titlebar/headerbar, Friends/Activty Feed & Video Call/Voice Chat */ 
-.theme-dark .container-1r6BKw.themed-ANHk51,
-.theme-dark .titleCall-_b9o8P,
-.theme-dark .headerBar-UHpsPw, 
-.privateChannels-1nO12o .searchBar-6Kv8R2 {
-	background-color: #1B1B1B;
-	padding: 0px;
-	height: 40px;
-}
+
 /* Temp Fix Until Discord Fixes It */
 .theme-dark .children-19S4PO:after {
 	background: transparent;
