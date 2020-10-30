@@ -1,7 +1,11 @@
-         //META{"name":"DiscordNight","description":"Dark and compact theme for BetterDiscord","author":"KillYoy#0295","version":"0.8.10","update_url":"https://github.com/KillYoy/DiscordNight/blob/master/DiscordNight.theme.css","authorId":"98468214824001536"}*//{}
+//META{"name":"DiscordNight","description":"Dark and compact theme for BetterDiscord","author":"KillYoy#0295","version":"0.8.10","update_url":"https://github.com/KillYoy/DiscordNight/blob/master/DiscordNight.theme.css","authorId":"98468214824001536"}*//{}
 
 :root {
 	--Settings-Theme-Version: "DiscordNight v0.8.10";
+	
+	--Channel-List-Width: 196px;	/* 196px, Discord default = 240px */
+	
+	--User-List-Width: 200px;		/* 200px, Discord default = 240px */
 	
 	--Titlebar-Help-Icon: none;		/* flex = ON, none = OFF */
 	
@@ -15,7 +19,7 @@
 	--Context-Menu-Emoji-Toolbar: none;	/* flex = ON, none = OFF */
 	
 	--Home-Store-Button: none;				/* block = ON, none = OFF */
-	--Home-Direct-Messages-Header: none;	/* flex = ON with create DM Button, block = ON, none = OFF */
+	--Home-Direct-Messages-Header: flex;	/* flex = ON with create DM Button, block = ON, none = OFF */
 	--Home-Close-DM-Button: block;			/* block = ON, none = OFF */
 	
 	--Server-List-Add-Servers-Color: #7F7F7F;	/* #7F7F7F, transparent */
@@ -626,10 +630,150 @@
 	margin-left: 0px;
 }
 
+/*********************************** Channel List Bottom Bar **********************************/
+
+/* Channels Bottom Status Box */
+.theme-dark .container-3baos1 {
+	height: 48px;
+	background-color: #1B1B1B;
+	border-bottom: none;
+	margin-bottom: 0px;
+	padding: 0px;
+	z-index: 1;
+}
+/* Profile Picture, User Name & User#ID */
+.container-3baos1 .avatarWrapper-2yR4wp {
+	margin-right: 4px;
+	margin-left: 1px;
+}
+.container-3baos1 .avatarWrapper-2yR4wp .status-3DaTVG {
+	border-color: #1B1B1B;
+}
+.container-3baos1 .nameTag-3uD-yy .subtext-3CDbHg {
+	color: #888888;
+	font-size: 10.5px;
+	font-weight: 600;
+}
+.container-3baos1 .title-eS5yk3 {
+	font-size: 14px;
+	font-weight: 400;
+}
+.container-3baos1 .discriminator-3-Lf_x {
+	color: #A5A5A5;
+	font-size: 10px;
+}
+.container-3baos1 .customStatusIcon-3wksjt {
+	margin-top: 1px;
+	margin-left: 2px;
+}
+/* Mute, Deafen, Settings Buttons */
+.container-3baos1 .button-14-BFJ {
+	width: 17px;
+	left: -3px;
+}
+.container-3baos1 .button-14-BFJ svg {
+	width: 16px;
+	margin-left: -2px;
+}
+.container-3baos1 .button-14-BFJ:hover {
+	background: transparent;
+}
+
+/* Voice Connected UI */
+.container-1giJp5 {
+	background-color: #1B1B1B;
+	border-bottom: none;
+	padding: 3px 1px 3px 1px;
+}
+.container-1giJp5 [class^='content'] {
+	padding: 2px 0px 2px 0px;
+}
+.container-1giJp5 .size12-3cLvbJ {
+	font-size: 11px;
+	line-height: 11px;
+	margin-top: -1px;
+	white-space: pre-line; 
+}
+.container-1giJp5 .button-14-BFJ {
+	width: 18px;
+	left: -2px;
+}
+.container-1giJp5 .button-14-BFJ svg {
+	transform: scale(0.9);
+}
+/* Noise Suppression */
+.container-1giJp5 .button-14-BFJ[aria-label="Noise Suppression powered by Krisp"] {
+	display: var(--Voice-Noise-Suppression);
+}
+/* Video/Go Live Buttons */
+.container-1giJp5 .actionButtons-14eAc_ {
+	width: calc(var(--Channel-List-Width) - 5px);
+	margin-top: 6px;
+}
+.container-1giJp5 .actionButtons-14eAc_ .sizeSmall-2cSMqn {
+	height: 28px;
+	min-height: 28px;
+}
+.container-1giJp5 .lookFilled-1Gx00P.colorBrand-3pXr91, 
+.container-1giJp5 .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+	background-color: #212121;
+	padding: 0px;
+}
+.container-1giJp5 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+	background-color: #43B581;
+}
+
+/* Rich Presence Game/Spotify & Listening Along Panel */
+.panels-j1Uci_ .panel-24C3ux,
+.panels-j1Uci_ .listeningAlong-13-Udx {
+	background-color: #1B1B1B;
+	border-bottom: 1px solid #212121;
+	padding: 6px 1px 3px;
+}
+.panels-j1Uci_ .info-WdNIDE {
+	margin-left: 4px;
+	font-size: 13px;
+	line-height: 16px;
+}
+.panel-24C3ux .title-eS5yk3 {
+	font-size: 13px;
+	line-height: 14px;
+	white-space: initial;
+	/* word-wrap: break-word; */
+}
+/* Game Icon */
+.panels-j1Uci_ .panel-24C3ux .gameIcon-2YB8Et:hover {
+	filter: brightness(0.8);
+}
+/* Go Live Button */
+.panels-j1Uci_ .panel-24C3ux .button-14-BFJ {
+	margin: 0px 2px 1px 0px;
+	width: 20px;
+}
+
+/* Button Hover */
+.panels-j1Uci_ .button-14-BFJ.enabled-2cQ-u7:hover {
+	background-color: transparent;
+}
+
+/* Stream To Server Guide Popup */
+.content-N9xlZF {
+	background-color: #3A71C1;
+	padding: 12px;
+	max-width: 180px;
+}
 
 /************************ Top Bar (Channel Name, Buttons, Search etc) *************************/
 
-
+/* Titlebar/headerbar, Friends/Activty Feed & Video Call/Voice Chat */ 
+.theme-dark .container-1r6BKw.themed-ANHk51,
+.theme-dark .titleCall-_b9o8P,
+.theme-dark .headerBar-UHpsPw, 
+.privateChannels-1nO12o .searchBar-6Kv8R2 {
+	background-color: #1B1B1B;
+	padding: 0px;
+	height: 40px;
+}
 /* Temp Fix Until Discord Fixes It */
 .theme-dark .children-19S4PO:after {
 	background: transparent;
