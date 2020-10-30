@@ -1,152 +1,19 @@
 
-/***************************************** Application Store ***************************************/
+/****************************************** Gift Inventory ****************************************/
 
-/* Scroller */
-.applicationStore-1pNvnv .scroller-2FKFPG::-webkit-scrollbar-thumb {
-	background-color: #161616 !important;
-	border: 4px solid #111111 !important;
+.standardSidebarView-3F1I7i .header-1RC2Wb,
+.standardSidebarView-3F1I7i .body-SKIE6r {
+	background-color: #212121;
 }
-.applicationStore-1pNvnv .scroller-2FKFPG::-webkit-scrollbar-track {
-	background-color: #111111 !important;
+.standardSidebarView-3F1I7i .header-1RC2Wb:hover {
+	background-color: #232323;
 }
-
-/* Main Background */
-.theme-dark .applicationStore-1pNvnv .scroller-1JpcIc,
-.theme-dark .applicationStore-1pNvnv .scroller-9moviB {
-	background-color: #111111 !important;
+.standardSidebarView-3F1I7i .header-1RC2Wb .splashArt-3yFzRe {
+	background-image: url(https://i.imgur.com/XjlkfGu.png);
+	filter: blur(1px);
+	width: 100%;
+	-webkit-mask: none;
 }
-
-/* Featured Background */
-.applicationStore-1pNvnv .itemBackground-2vEldQ:before {
-	background: radial-gradient(ellipse at top,transparent,#111111),-webkit-gradient(linear,left top,right top,from(#111111),color-stop(40%,transparent),color-stop(60%,transparent),to(#111111)),-webkit-gradient(linear,left bottom,left top,color-stop(5%,#111111),color-stop(70%,transparent));
-}
-/* Featured Scroller */
-.applicationStore-1pNvnv .scroller--qpKGq::-webkit-scrollbar-track {
-	background-color: #131313 !important;
-}
-
-/* Selected Game Border */
-.applicationStore-1pNvnv .overlappingBorder-1-XPGl, 
-.applicationStore-1pNvnv .overlappingBorder-3aFng4 {
-	border-color: #3A71C1;
-}
-
-/* OS Icon */
-.applicationStore-1pNvnv .purchaseUnitOperatingSystem-cnbJPz {
-	color: #666666;
-}
-
-/* Divider */
-.applicationStore-1pNvnv .premiumApplicationsHeader-Zmkm5e, 
-.applicationStore-1pNvnv .sortFilterBar-3hePOV, 
-.applicationStore-1pNvnv .categoryHeader-1D7Tqy {
-	border-color: #232323;
-}
-
-/* Small Game Tiles */
-.applicationStore-1pNvnv .tile-QA_yMc,
-.applicationStore-1pNvnv .details-1DqjXP {
-	background-color: #161616;
-	box-shadow: 0px 1px 1px 1px #101010;
-}
-.applicationStore-1pNvnv .tile-QA_yMc:hover,
-.applicationStore-1pNvnv .tileMedia-1q3guD,
-.applicationStore-1pNvnv .tileMedia-1q3guD:hover {
-	background-color: #131313;
-}
-.applicationStore-1pNvnv .gradientOverlayLeft-3w159C,
-.applicationStore-1pNvnv .gradientOverlayRight-3vMuS8 {
-	background-image: none;
-}
-/* Tag */
-.applicationStore-1pNvnv .genreTag-3QLRUJ {
-	background-color: #3A71C1;
-	color: #FFFFFF;
-}
-/* Price Tag */
-.applicationStore-1pNvnv .price-NUANu6 {
-	background-color: #43B581;
-	color: #FFFFFF;
-}
-/* Hover Details Popout */
-.applicationStore-1pNvnv .popout-2xBvMR {
-	background-color: #161616;
-}
-
-/* Game Description/Details Cards */
-.applicationStore-1pNvnv .root-1bFE0x, 
-.applicationStore-1pNvnv .content-35aVm0, 
-.applicationStore-1pNvnv .item-2yFVoY,
-.applicationStore-1pNvnv .bodySection-jqkkIP, 
-.applicationStore-1pNvnv .row-1bU71H, 
-.applicationStore-1pNvnv .card-NB61oR {
-	background-color: #191919;
-}
-.applicationStore-1pNvnv .item-2yFVoY:hover {
-	background-color: #1C1C1C;
-	box-shadow: 0 6px 18px rgba(10,10,10,.3);
-}
-/* Circle Details */
-.applicationStore-1pNvnv .iconCircle-1dlYo0 {
-	background-color: #3A71C1;
-}
-
-/* First On Discord Notices */
-.applicationStore-1pNvnv .headerFancy-1AcCLF {
-	background: linear-gradient(270deg,#738Ef5,#3A71C1);
-	font-weight: 600;
-}
-.applicationStore-1pNvnv .tag-HanR-9 {
-	background-image: -webkit-gradient(linear,left top,right top,from(#3A71C1),to(#738Ef5));
-}
-.applicationStore-1pNvnv .tag-HanR-9:before {
-	background-image: none;
-}
-
-/* Game Page Verified Discord Server Join Button */
-.applicationStore-1pNvnv .content-35aVm0 .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
-	background-color: rgba(67,181,129,1);
-}
-.applicationStore-1pNvnv .content-35aVm0 .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
-	background-color: rgba(67,181,129,0.8);
-}
-
-/* Game In Library */
-.applicationStore-1pNvnv .entitledHeader-3LRNDT {
-	background-color: rgba(67,181,129,1);
-}
-
-/* Game Next Screenshot */
-.applicationStore-1pNvnv .arrow-3jRqK8 {
-	background-color: transparent;
-}
-/* Game Screenshot Bottom */
-.applicationStore-1pNvnv .assetWrapper-2Qw_5D {
-	background-color: #111111;
-}
-
-/* Hide Games In Library Checkbox */
-.applicationStore-1pNvnv .checked-3_4uQ9 {
-	background-color: #181818;
-	border-color: #3A71C1;
-}
-
-/* Browse Search Bar */
-.applicationStore-1pNvnv .filterBrowsingHeaderWrapper-3I9RkU .searchBox-3Y2Vi7, 
-.applicationStore-1pNvnv .filterBrowsingHeaderWrapper-3I9RkU .input-cIJ7To {
-	background-color: #1C1C1C !important;
-}
-
-/* Game News List Modal */
-.inner-ZyuQk0 .modal-yWgWj- .item-2yFVoY {
-	background-color: #191919;
-}
-.inner-ZyuQk0 .modal-yWgWj- .item-2yFVoY:hover {
-	background-color: #1C1C1C;
-}
-
-/* Directory Footer */
-.applicationStore-1pNvnv .footer-3oZnEF {
-	margin-top: 0px;
-	filter: grayscale(0.5);
+.standardSidebarView-3F1I7i .header-1RC2Wb .cardHeader-oG4l4I {
+	z-index: 1;
 }
