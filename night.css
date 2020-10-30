@@ -628,20 +628,6 @@
 
 /*********************************** Channel List Bottom Bar **********************************/
 
-/* Channels Bottom Status Box */
-.theme-dark .container-3baos1 {
-	height: 48px;
-	background-color: #1B1B1B;
-	border-bottom: none;
-	margin-bottom: 0px;
-	padding: 0px;
-	z-index: 1;
-}
-/* Profile Picture, User Name & User#ID */
-.container-3baos1 .avatarWrapper-2yR4wp {
-	margin-right: 4px;
-	margin-left: 1px;
-}
 .container-3baos1 .avatarWrapper-2yR4wp .status-3DaTVG {
 	border-color: #1B1B1B;
 }
@@ -662,11 +648,6 @@
 	margin-top: 1px;
 	margin-left: 2px;
 }
-/* Mute, Deafen, Settings Buttons */
-.container-3baos1 .button-14-BFJ {
-	width: 17px;
-	left: -3px;
-}
 .container-3baos1 .button-14-BFJ svg {
 	width: 16px;
 	margin-left: -2px;
@@ -675,15 +656,7 @@
 	background: transparent;
 }
 
-/* Voice Connected UI */
-.container-1giJp5 {
-	background-color: #1B1B1B;
-	border-bottom: none;
-	padding: 3px 1px 3px 1px;
-}
-.container-1giJp5 [class^='content'] {
-	padding: 2px 0px 2px 0px;
-}
+
 .container-1giJp5 .size12-3cLvbJ {
 	font-size: 11px;
 	line-height: 11px;
@@ -697,15 +670,7 @@
 .container-1giJp5 .button-14-BFJ svg {
 	transform: scale(0.9);
 }
-/* Noise Suppression */
-.container-1giJp5 .button-14-BFJ[aria-label="Noise Suppression powered by Krisp"] {
-	display: var(--Voice-Noise-Suppression);
-}
-/* Video/Go Live Buttons */
-.container-1giJp5 .actionButtons-14eAc_ {
-	width: calc(var(--Channel-List-Width) - 5px);
-	margin-top: 6px;
-}
+
 .container-1giJp5 .actionButtons-14eAc_ .sizeSmall-2cSMqn {
 	height: 28px;
 	min-height: 28px;
@@ -737,27 +702,7 @@
 	white-space: initial;
 	/* word-wrap: break-word; */
 }
-/* Game Icon */
-.panels-j1Uci_ .panel-24C3ux .gameIcon-2YB8Et:hover {
-	filter: brightness(0.8);
-}
-/* Go Live Button */
-.panels-j1Uci_ .panel-24C3ux .button-14-BFJ {
-	margin: 0px 2px 1px 0px;
-	width: 20px;
-}
 
-/* Button Hover */
-.panels-j1Uci_ .button-14-BFJ.enabled-2cQ-u7:hover {
-	background-color: transparent;
-}
-
-/* Stream To Server Guide Popup */
-.content-N9xlZF {
-	background-color: #3A71C1;
-	padding: 12px;
-	max-width: 180px;
-}
 
 /************************ Top Bar (Channel Name, Buttons, Search etc) *************************/
 
