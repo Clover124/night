@@ -3,19 +3,19 @@
 :root {
 	--Settings-Theme-Version: "DiscordNight v0.8.10";
 	
-	--Titlebar-Help-Icon: flex;		/* flex = ON, none = OFF */
+	--Titlebar-Help-Icon: none;		/* flex = ON, none = OFF */
 	
-	--Chatbox-GIF-Button: flex;		/* flex = ON, none = OFF */
-	--Chatbox-Gift-Button: flex;	/* flex = ON, none = OFF */
+	--Chatbox-GIF-Button: none;		/* flex = ON, none = OFF */
+	--Chatbox-Gift-Button: none;	/* flex = ON, none = OFF */
 	
-	--Voice-Noise-Suppression: flex;/* flex = ON, none = OFF */
+	--Voice-Noise-Suppression: none;/* flex = ON, none = OFF */
 	
-	--Embed-Remove-Button: flex;	/* flex = ON, none = OFF */
+	--Embed-Remove-Button: none;	/* flex = ON, none = OFF */
 	
-	--Context-Menu-Emoji-Toolbar: flex;	/* flex = ON, none = OFF */
+	--Context-Menu-Emoji-Toolbar: none;	/* flex = ON, none = OFF */
 	
-	--Home-Store-Button: flex;				/* block = ON, none = OFF */
-	--Home-Direct-Messages-Header: flex;	/* flex = ON with create DM Button, block = ON, none = OFF */
+	--Home-Store-Button: none;				/* block = ON, none = OFF */
+	--Home-Direct-Messages-Header: none;	/* flex = ON with create DM Button, block = ON, none = OFF */
 	--Home-Close-DM-Button: block;			/* block = ON, none = OFF */
 	
 	--Server-List-Add-Servers-Color: #7F7F7F;	/* #7F7F7F, transparent */
