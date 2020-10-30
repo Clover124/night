@@ -2,7 +2,17 @@
 /****************************** Server/Channel User List Section ******************************/
 
 
-
+/* User Role List Category Group Labels */
+.members-1998pB .membersGroup-v9BXpm {
+	width: calc(var(--User-List-Width) - 16px);
+	height: 30px;
+	margin: 0px 0px 6px 8px;
+	padding: 10px 0px 0px 0px;
+	letter-spacing: .01em;
+	text-align: center;
+	border-bottom: 1px solid currentcolor;
+	backface-visibility: hidden;
+}
 /* User Name */
 .members-1998pB .content-3QAtGj {
 	margin-left: -6px;
