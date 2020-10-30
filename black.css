@@ -3533,16 +3533,3 @@ background-attachment: fixed;
 	animation: none !important;
 	-webkit-animation: none !important;
 }
-/* Turn On Screen Share Menu/Go Live Menu */
-.modalSize-cqUaws .sourceScroller-Pk7YAM {
-	background-color: #191919;
-}
-.modalSize-cqUaws .sourceScroller-Pk7YAM::-webkit-scrollbar-thumb {
-	background-color: #111111;
-}
-.modalSize-cqUaws .tile-2w4k5N .sourceThumbnail-27dolk {
-	background-color: #161616;
-}
-.modalSize-cqUaws .tile-2w4k5N:hover .sourceThumbnail-27dolk {
-	box-shadow: inset 0 0 0 2px #3A71C1;
-}
