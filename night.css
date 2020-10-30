@@ -1,159 +1,44 @@
 
-/******************************************* Game Library *****************************************/
 
-.container-3Mxszk .scroller-1IIF0A::-webkit-scrollbar-track,
-.container-3Mxszk .scroller-2XE8rp::-webkit-scrollbar-track {
-	background-color: transparent;
+/****************************************** Game Preview *****************************************/
+
+.container-jGk-CT .emptyPlayers-dx3qig, 
+.container-jGk-CT .players-1zg2l8 {
+	background-color: #141414;
 }
-.container-3Mxszk .header-39GIC8 {
-	padding: 2px 31px 0 21px;
-	border-bottom: none;
+.container-jGk-CT .player-3zB-0D:hover {
+	background-color: #191919;
 }
-.theme-dark .libraryHeader-3g95kE:before {
-	box-shadow: none;
+.container-jGk-CT .body-3NySJS {
+	text-shadow: -1px 2px 2px #111111;
 }
-.container-3Mxszk .stickyHeader-1pqx0j,
-.container-3Mxszk .table-1tDS6w {
-	width: 100%;
-}
-.container-3Mxszk .scroller-1IIF0A {
-	contain: none;
-}
-/* Game Card: Position */
-.container-3Mxszk .row-ZLfFhY {
-	margin: 0px;
-	min-height: 61px;
-}
-.container-3Mxszk .rowWrapper-2fB6P0 {
-	margin-left: 0px;
-	margin-right: 4px;
-	border-radius: 0px;
-}
-.container-3Mxszk .rowWrapper-2fB6P0:hover {
-	background: linear-gradient(to right,#161616, 99% ,transparent);
-}
-.container-3Mxszk .rowWrapper-2fB6P0 .nameCellText-1mpqtF {
-	filter: drop-shadow(-1px 2px 0px #0F0F0F);
-}
-.container-3Mxszk .rowWrapper-2fB6P0 .nameBodyCell-3JOlnK {
-	padding-left: 8px;
-}
-.container-3Mxszk .rowWrapper-2fB6P0 .nameBodyCell-3JOlnK:hover {
-	padding-left: 12px;
-}
-/* Game Card: Art */
-.container-3Mxszk .rowWrapperActive-2L7i9f {
-	background-color: #1B1B1B;
-}
-.container-3Mxszk .rowWrapperActive-2L7i9f .rowBackground-3MeNoN {
-	-webkit-mask: radial-gradient(100% 500% at left,hsla(0,0%,100%,0.7) 0,hsla(0,0%,100%,0) 100%);
-	border-radius: 3px;
-	filter: none;
-	width: 380px;
-}
-/* Game Icon */
-.container-3Mxszk .gameIcon-3XJ9fu {
-	margin-left: 10px;
-	margin-right: 12px;
-	height: 40px;
-	width: 40px;
-}
-.container-3Mxszk .rowWrapperActive-2L7i9f:hover .small-xOVx-r {
-	filter: drop-shadow(-1px 2px 0px #070707);
-}
-/* Cells */
-.container-3Mxszk .textCell-1aBIUP {
-	color: #AFAFAF;
-}
-.container-3Mxszk .lastPlayedCell-2arbtc.bodyCell-9xKjWE {
-	padding: 0px;
-}
-.container-3Mxszk .actionsCell-1awtNi.bodyCell-9xKjWE {
-	padding: 0 8px 0 0;
-}
-.container-3Mxszk .lastPlayedCell-2arbtc.headerCellSorted-3a5AzJ .sortIcon-3wW2NW {
-	margin-left: 0px;
-}
-.container-3Mxszk .lastPlayedCell-2arbtc, 
-.container-3Mxszk .platformCell-XyBBs6 {
-	width: 0;
-}
-.container-3Mxszk .actionsCell-1awtNi {
-	width: 10%;
-}
-/* Settings Icons */
-.container-3Mxszk .icon-1IKq3C {
+.container-jGk-CT .playtime-1BRMZX {
 	color: #A5A5A5;
 }
-.container-3Mxszk .settingIcon-1nXguX {
-	margin-right: 10px;
+.container-jGk-CT .subtitle-rPfx7J,
+.container-jGk-CT .colorMuted-HdFt4q {
+	color: #777777;
 }
-/* Settings */
-.container-3Mxszk .hiddenLibraryApplication-T6N3U1 {
-	border-color: #262626;
-}
-.container-3Mxszk .installationPath-3cStrB {
-	box-shadow: 0 1px 0 0 #262626;
-}
-.container-3Mxszk .restoreButton-3jU0Z6 {
-	background: #131313;
-	box-shadow: none;
-}
-.container-3Mxszk .restoreButton-3jU0Z6:hover {
-	background-color: #161616;
-	box-shadow: none;
-}
-.container-3Mxszk .hiddenLibraryApplication-T6N3U1:before {
-	background: #161616 !important;
-}
-/* Buttons */
-.container-3Mxszk .disabledButtonColor-RDvfEC {
-	background-color: #131313;
-}
-/* Game Card: No Dimming Of Non Installed Games */
-.container-3Mxszk .rowWrapperDim-2Y1SDG .nameBodyCell-3JOlnK, 
-.container-3Mxszk .rowWrapperDim-2Y1SDG .textCell-1aBIUP,
-.container-3Mxszk .rowWrapperDim-2Y1SDG .settingIcon-1nXguX {
-	opacity: 1;
+.container-jGk-CT .footer-3J5oP4,
+.container-jGk-CT .news-2KwXHF {
+	background-color: #111111;
 }
 
-/* Downloading Game Header */
-.container-3Mxszk .gameUpdates-2GPqBU {
-	background-color: #161616;
-}
-.container-3Mxszk .row-2X_kYI {
-	border-bottom: 1px solid #262626;
-	margin: 0 14px;
-}
-/* Downloading Game Header Progress Bar */
-.container-3Mxszk .progress-2XXRYo .small-1CUeBa {
-	background-color: #3A71C1 !important;
-}
-.container-3Mxszk .progress-2XXRYo {
-	background-color: #262626 !important;
-}
-.container-3Mxszk .progressBar-3zryPV {
-	filter: hue-rotate(-50deg) saturate(0.5);
+/* No Image Backup */
+.container-jGk-CT .newsEmpty-3tvLgI {
+	filter: grayscale(1) contrast(2.52);
 }
 
-/* Game Purchased/Choose Install Location */
-.inner-ZyuQk0 .modal-yWgWj- .splashBackground-1zhLFw {
-	filter: none;
-	opacity: 0.2;
-	-webkit-mask: none;
-}
-/* Library Install Game */
-.modal-yWgWj- .splash-9yPB5w {
-	filter: none;
-	opacity: 0.8;
-}
-.modal-yWgWj- .divider-38zUJA {
-	background-color: #333333;
-}
-.modal-yWgWj- .installSize-1eXbBX {
+/* Play Button */
+.container-jGk-CT .disabledButton-3apIHo,
+.container-jGk-CT .lookFilled-1Gx00P.colorGrey-2DXtkV {
 	background-color: #3A71C1;
 }
-.modal-yWgWj- .lookFilled-1h1y05.select-1Pkeg4 {
-	background-color: #191919;
-	border: none
+/* Follow Button */
+.container-jGk-CT .lookOutlined-3sRXeN.colorGrey-2DXtkV {
+	border-color: #3A71C1;
+	color: #3A71C1;
+}
+.container-jGk-CT .verifiedIcon-3oz8wo {
+	filter: hue-rotate(-10deg) contrast(1.5);
 }
