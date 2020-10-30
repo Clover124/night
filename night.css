@@ -1,24 +1,7 @@
 
 /****************************** Server/Channel User List Section ******************************/
 
-/* User List */
-.membersWrap-2h-GB4 .members-1998pB,
-.membersWrap-2h-GB4 .members-1998pB > div {
-	background-color: #161616;
-}
-.members-1998pB {
-	width: var(--User-List-Width);
-}
-.membersWrap-2h-GB4 {
-	min-width: 0;
-}
-.members-1998pB .member-3-YXUe .layout-2DM8Md {
-	padding: 0px 0px 0px 0px;
-	margin: 0px -2px;
-}
-.membersWrap-2h-GB4 .scrollerBase-289Jih::-webkit-scrollbar-thumb {
-	background-color: #212121;
-}
+
 /* User Role List Category Group Labels */
 .members-1998pB .membersGroup-v9BXpm {
 	width: calc(var(--User-List-Width) - 16px);
