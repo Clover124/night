@@ -3533,20 +3533,16 @@ background-attachment: fixed;
 	animation: none !important;
 	-webkit-animation: none !important;
 }
-/* Video/Go Live Buttons */
-.container-1giJp5 .actionButtons-14eAc_ {
-	width: calc(var(--Channel-List-Width) - 5px);
-	margin-top: 6px;
+/* Turn On Screen Share Menu/Go Live Menu */
+.modalSize-cqUaws .sourceScroller-Pk7YAM {
+	background-color: #191919;
 }
-.container-1giJp5 .actionButtons-14eAc_ .sizeSmall-2cSMqn {
-	height: 28px;
-	min-height: 28px;
+.modalSize-cqUaws .sourceScroller-Pk7YAM::-webkit-scrollbar-thumb {
+	background-color: #111111;
 }
-.container-1giJp5 .lookFilled-1Gx00P.colorBrand-3pXr91, 
-.container-1giJp5 .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
-	background-color: #212121;
-	padding: 0px;
+.modalSize-cqUaws .tile-2w4k5N .sourceThumbnail-27dolk {
+	background-color: #161616;
 }
-.container-1giJp5 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-	background-color: #43B581;
+.modalSize-cqUaws .tile-2w4k5N:hover .sourceThumbnail-27dolk {
+	box-shadow: inset 0 0 0 2px #3A71C1;
 }
