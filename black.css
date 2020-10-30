@@ -3454,3 +3454,82 @@ background-attachment: fixed;
 .standardSidebarView-3F1I7i .sidebarRegionScroller-3MXcoP [class*="item"]:last-child::before {
 	background: url(https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Delete.svg);
 }
+/****************************** Server/Channel User List Section ******************************/
+
+
+/* User Role List Category Group Labels */
+.members-1998pB .membersGroup-v9BXpm {
+	width: calc(var(--User-List-Width) - 16px);
+	height: 30px;
+	margin: 0px 0px 6px 8px;
+	padding: 10px 0px 0px 0px;
+	letter-spacing: .01em;
+	text-align: center;
+	border-bottom: 1px solid currentcolor;
+	backface-visibility: hidden;
+}
+/* User Name */
+.members-1998pB .content-3QAtGj {
+	margin-left: -6px;
+}
+.members-1998pB .activityText-yGKsKm {
+	margin-left: 0.5px;
+}
+
+/* Server Member Counter Plugin */
+#MemberCount {
+	background-color: #161616 !important;
+	padding: 8px 0px 24px 0px;
+	height: 20px;
+}
+
+/* User Background Hover Effect */
+.members-1998pB .selected-aXhQR6 .layout-2DM8Md,
+.members-1998pB .clickable-1JJAn8:hover .layout-2DM8Md {
+	background: linear-gradient(to right, transparent,#1C1C1C,#1C1C1C,transparent);
+	background-color: transparent !important;
+}
+/* User Selection/Hover Animation Transition */
+.members-1998pB .selected-aXhQR6.container-2Pjhx-,
+.members-1998pB .member-3-YXUe:hover {
+	transform: translate(4px);
+}
+.member-3-YXUe {
+	transition: 100ms;
+}
+
+/* User Status Game Playing Text */
+.layout-2DM8Md .activityText-yGKsKm,
+.layout-2DM8Md .activityText-OW8WYb,
+.layout-2DM8Md .subtext-1RtU34 {
+	color: #888888;
+	font-size: 10.5px;
+	font-weight: 600;
+}
+.layout-2DM8Md .activityText-yGKsKm strong,
+.layout-2DM8Md .activityText-OW8WYb strong {
+	color: #CCCCCC;
+	font-size: 10.5px;
+}
+.layout-2DM8Md .icon-15YQ1T {
+	margin-left: 1px;
+}
+
+/* User List Loading */
+.container-16j22k {
+	display: none;
+}
+.empty-388osJ {
+	fill: #212121;
+}
+.placeholderAvatar-damqh6, 
+.placeholderUsername-2B_OA9 {
+	background-color: #212121;
+}
+.memberGroupsPlaceholder-3mwPub {
+	background-color: transparent;
+}
+.members-1998pB .member-3-YXUe {
+	animation: none !important;
+	-webkit-animation: none !important;
+}
